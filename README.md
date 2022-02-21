@@ -1,1 +1,1 @@
-# tech-radar
+# Technology Radar
