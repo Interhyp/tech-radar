@@ -1,0 +1,84 @@
+name,ring,quadrant,isNew,inReview,topic,description
+Jenkins,adopt,tools,FALSE,FALSE,,TBD
+Micro Frontends,trial,techniques,FALSE,FALSE,,TBD
+Openshift,adopt,platforms,FALSE,FALSE,,TBD
+Apache Kafka,adopt,platforms,FALSE,FALSE,,Apache Kafka is our standard messaging/event broker and event store.
+Ansible,assess,platforms,FALSE,FALSE,,TBD
+velocity,hold,languages&frameworks,FALSE,FALSE,,TBD
+istio,assess,platforms,FALSE,FALSE,,TBD
+Zookeeper,trial,platforms,FALSE,FALSE,,TBD
+Spring Boot Admin,trial,platforms,FALSE,FALSE,,TBD
+Docker,adopt,platforms,FALSE,FALSE,,TBD
+Spring Boot,adopt,platforms,FALSE,FALSE,,TBD
+Spring Cloud,adopt,platforms,FALSE,FALSE,,TBD
+Big Data,assess,techniques,FALSE,FALSE,,TBD
+Service Mesh,assess,techniques,FALSE,FALSE,,TBD
+GraphQL,trial,techniques,FALSE,FALSE,,TBD
+Event Sourcing,trial,techniques,TRUE,FALSE,,TBD
+Continous Delivery,trial,techniques,FALSE,FALSE,,TBD
+Continous Integration,adopt,techniques,FALSE,FALSE,,TBD
+JIRA,adopt,tools,FALSE,FALSE,,TBD
+Confluence,adopt,tools,FALSE,FALSE,,TBD
+Bitbucket,adopt,tools,FALSE,FALSE,,TBD
+Nexus,adopt,tools,FALSE,FALSE,,TBD
+Kotlin,trial,languages&frameworks,TRUE,FALSE,,TBD
+Angular,adopt,languages&frameworks,FALSE,FALSE,,TBD
+Apache HTTPd,adopt,platforms,FALSE,FALSE,,TBD
+Nginx,trial,platforms,FALSE,FALSE,,TBD
+Tomcat,adopt,platforms,FALSE,FALSE,,TBD
+SASS,adopt,tools,FALSE,FALSE,,TBD
+Mockito,adopt,languages&frameworks,FALSE,FALSE,,TBD
+ELK Stack,adopt,platforms,FALSE,FALSE,,TBD
+OpenTracing,assess,platforms,FALSE,FALSE,,TBD
+npm,adopt,tools,FALSE,FALSE,,TBD
+RabbitMQ,assess,platforms,FALSE,FALSE,,TBD
+Java,adopt,languages&frameworks,FALSE,FALSE,,TBD
+Keycloak,adopt,platforms,FALSE,FALSE,,TBD
+Gradle,adopt,tools,FALSE,FALSE,,TBD
+Zipkin,hold,tools,FALSE,FALSE,,TBD
+Redis,trial,platforms,FALSE,FALSE,,TBD
+Elasticsearch,trial,platforms,FALSE,FALSE,,TBD
+MongoDB,trial,platforms,FALSE,FALSE,,MongoDB is a well-proven document NoSQL database. First uses cases are in the submission and bid domain.
+linkerd,assess,platforms,FALSE,FALSE,,TBD
+AWS,hold,platforms,TRUE,FALSE,,TBD
+Azure Cloud,adopt,platforms,TRUE,FALSE,,TBD
+Azure DevOps,assess,tools,TRUE,FALSE,,TBD
+Azure API Management,trial,platforms,TRUE,FALSE,,Currently under evaluation for the Partner APIs to provide a central documentation hub for our APIs.
+NoSql,trial,techniques,FALSE,FALSE,,TBD
+Pair Programming,adopt,techniques,FALSE,FALSE,,TBD
+Golang,assess,languages&frameworks,FALSE,FALSE,,TBD
+React,adopt,languages&frameworks,TRUE,FALSE,,TBD
+Vue.js,assess,languages&frameworks,FALSE,FALSE,,TBD
+ExtJS,hold,languages&frameworks,TRUE,FALSE,,TBD
+Groovy,adopt,languages&frameworks,FALSE,FALSE,,TBD
+Swagger API,hold,tools,FALSE,FALSE,,Swagger API/Openshift < 2.0 shall not be used anymore and replaced with the latest version of OpenAPI.
+OpenAPI,adopt,tools,FALSE,FALSE,,OpenAPI in version 3 and newer has become the defacto standard for REST APIs and shall be used in a API First approach for all our REST(like) APIs.
+Apache Spark,assess,platforms,FALSE,FALSE,,TBD
+Infinica,hold,platforms,TRUE,FALSE,,TBD
+casssandra,trial,platforms,FALSE,FALSE,,TBD
+xamarin,hold,languages&frameworks,TRUE,FALSE,,TBD
+ActiveMQ,assess,platforms,FALSE,FALSE,,TBD
+PowerMock,hold,languages&frameworks,FALSE,FALSE,,TBD
+react native,assess,languages&frameworks,FALSE,FALSE,,TBD
+ionic,assess,languages&frameworks,FALSE,FALSE,,TBD
+Log Level per request,trial,techniques,FALSE,FALSE,,TBD
+Camunda,assess,languages&frameworks,FALSE,FALSE,,TBD
+OpenJDK,adopt,languages&frameworks,TRUE,FALSE,,TBD
+Java8,hold,languages&frameworks,TRUE,FALSE,,TBD
+Node.js,trial,languages&frameworks,FALSE,FALSE,,Node.js can be used for BFFs and very small services with little business logic and which are self-contained and don't need other services and/or storages.
+Express,trial,languages&frameworks,TRUE,FALSE,,Express is the defacto mainstream application framework for Node.js.
+Python,adopt,languages&frameworks,TRUE,FALSE,,TBD
+Kafka Streams,trial,languages&frameworks,TRUE,FALSE,,TBD
+Scala,assess,languages&frameworks,TRUE,FALSE,,TBD
+Web Components,adopt,languages&frameworks,FALSE,FALSE,,In general we beieve in Web Components as an appealing appiach, e.g. to easily integrate LaF partner. Nonetheless we have some technical challengies in Interhome/React where we cannot fully utilize the benefits of Web Components yet.
+Salesforce Sales Cloud,hold,platforms,TRUE,TRUE,,Salesforce Sales Cloud is currently only used as a technical middle layer to integrate with the Salesforce Marketing Cloud. 
+Cypress,assess,tools,TRUE,FALSE,,TBD
+Hazelcast,trial,platforms,TRUE,FALSE,,Hazelcast can be used as a distributed caching mechanism. Already used as local cache in HVB project.
+OpenTracing,trial,TRUE,FALSE,,Has become the defacto standard for distributed tracing. Internal tests already successful.
+Eventstorming,trial,TRUE,FALSE,,Eventstorming is a lightweight approach to analyze, understand and define business processes and domains. Already used in several projects.
+Vault,trial,TRUE,FALSE,,Replacement for Trocla
+gatlin,trial,TRUE,FALSE,,Modern alternative to Jmeter for performance tests.
+Testcafe,adopt,TRUE,FALSE,,End-2-End test framework as cypress doesn't work with our infrastructure, e.g. proxy.
+Serverless Framework,assess,TRUE,FALSE,,Serverless Framework is a vendor neutral framework in the serverless domain which provides means to create and manage serverless functions.
+CosmosDB,assess,TRUE,FALSE,,All purpose database in Azure where we should gain some experience
+Camunda,adopt,TRUE,FALSE,,TBD
