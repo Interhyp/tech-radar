@@ -124,7 +124,6 @@ Rundeck,adopt,tools,TRUE,"Rundeck is an job scheduler and runbook automation ser
 ServiceNow,adopt,tools,TRUE,"central IT Service Management Plattform to provide IT service processes#, asset management and Incident/Problem-Management",
 Snapview,adopt,tools,TRUE,"Used to  with customers via  Voice- and Video-communication on our website",
 Tealium,adopt,tools,TRUE,"Enterprise Tag Management",
-Trello,adopt,tools,TRUE,Trello is a visual project management system that makes working on group projects using sticky notes on the whiteboard.",
+Trello,adopt,tools,TRUE,"Trello is a visual project management system that makes working on group projects using sticky notes on the whiteboard.",
 Azure Synapse,assess,platforms,TRUE,"",
 Azure Data Factory,assess,platforms,TRUE,"",
-
