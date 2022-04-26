@@ -87,3 +87,4 @@ Web Components,hold,languages&frameworks,FALSE,Web Components are not fully comp
 Salesforce Sales Cloud,hold,platforms,TRUE,Salesforce Sales Cloud is currently only used as a technical middle layer to integrate with the Salesforce Marketing Cloud.,
 Cypress,assess,tools,TRUE,TBD,
 Hazelcast,trial,platforms,TRUE,Hazelcast can be used as a distributed caching mechanism. Already used as local cache in HVB project.,
+Grafana,adopt,platforms,TRUE,"Grafana is our one-stop-shop for all metrics to be visualized stored in Prometheus.",
