@@ -96,3 +96,7 @@ Kustomize,hold,tools,TRUE,"We are migrating to Helm to our preferred solution fo
 Checkmarx,adopt,tools,TRUE,"",
 Twistlock,adopt,tools,TRUE,"",
 Elastic Operator,trial,tools,TRUE,"Elastic Operator provides a modern Kubernetes compatible way to operate  the Elastic stack.",
+Oracle,adopt,tools,FALSE,"Oracle is our preferred choice a for relational database for mortgage platform services deployed on-premise. Hence at the same time NoSQL database are favored when they are more suitable for the specific usecase. For Azure we prefer different database technologies, e.g. Postgres, Azure Cosmos DB.",
+Azure Cosmos Mongo DB,adopt,tools,TRUE,"",
+GitOps,adopt,techniques,TRUE,"",
+Kubermatic,adopt,platforms,TRUE,"We use Kubermatic as our standard deployment of Kubernetes for on-premise installation. In Azure we use Azure Kubernetes Service.",
