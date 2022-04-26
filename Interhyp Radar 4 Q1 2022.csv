@@ -8,8 +8,6 @@ Infrastructure As Code (IaC),adopt,techniques,TRUE,We define our infrastructure 
 Feature Toggles,adopt,techniques,TRUE,Usage of feature toggles to enable/disable feature, e.g. for A/B testing, on-boarding of features, etc. Feature toggles shall not be used once a feature is general available. This is the configured via the respective permissions and application configuration.,
 Application Performance Monitoring (APM),adopt,techniques,TRUE,Use Application Performance Monitoring to gain insight in the performance and usability of our products and services in a standardized way. Thereby we combine APM data with other information, e.g. trace, metrics and log data to get a holistic view of our services.,
 API First,adopt,techniques,TRUE,We apply the API first principle for all our product API and follow API guidelines.,
-REST API Validation,techniques,adopt,TRUE,We validate all our REST APIs against our REST guidelines in an automated fashion as part of our API development pipeline (ApiOps).,
-split.io,adopt,tools,TRUE,We use split.io as our feature toggle service.,
 Helm,adopt,tools,TRUE,We use Helm to define our Kubernetes deployments.,
 Openshift,adopt,platforms,FALSE,TBD,
 Apache Kafka,adopt,platforms,FALSE,Apache Kafka is our standard messaging/event broker and event store.,
