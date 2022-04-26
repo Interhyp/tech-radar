@@ -1,6 +1,6 @@
 name,ring,quadrant,isNew,description,
 Jenkins,adopt,tools,FALSE,TBD,
-Microservices,adopt,techniques,FALSE,Group related features and domains in microservices applying Domain Driven Design strategic patterns. Consider EventStorming to identify your business process and domains. Be aware of the https://www.infoq.com/news/2017/12/entity-services-antipattern/ anti-pattern.,
+Microservices,adopt,techniques,FALSE,Group related features and domains in microservices applying Domain Driven Design strategic patterns. Consider EventStorming to identify your business process and domains. Be aware of the https://www.infoq.com/news/2017/12/entity-services-antipattern/ anti-pattern.
 Domain Driven Design (DDD),adopt,techniques, FALSE,Usage of DDD to define our domains and services. Thereby we focus primarily on strategic patterns. EventStorming is one preferred way to visualize and identify domains and services.
 Micro Frontends,adopt,techniques,FALSE,We are using Module Federation, to shorten our release times and force Squads to think and implement in independent modules.
 Resilience Patterns,adopt,techniques,TRUE,Use common resilience patterns as applicable to make our services resilience against common failure scenarios.
