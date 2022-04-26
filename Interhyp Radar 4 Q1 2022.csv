@@ -11,7 +11,7 @@ API First,adopt,techniques,TRUE,We apply the API first principle for all our pro
 split.io,adopt,tools,TRUE,We use split.io as our feature toggle service.,
 Helm,adopt,tools,TRUE,We use Helm to define our Kubernetes deployments.,
 Renovate,adopt,tools,TRUE,We use Renovate to automatically manage dependency updates to speed up update cycles in order to keep our software reasonable up-to-date. This also is crucial in case of security update where a quick and fast response time is crucial.,
-Typescript,adopt,languages&frameworks,TRUE,We only allow Typescript for new projects and migrate old ones if they are further used in production.
+Typescript,adopt,languages&frameworks,TRUE,We only allow Typescript for new projects and migrate old ones if they are further used in production.,
 Openshift,adopt,platforms,FALSE,TBD,
 Apache Kafka,adopt,platforms,FALSE,Apache Kafka is our standard messaging/event broker and event store.,
 Ansible,assess,platforms,FALSE,TBD,
