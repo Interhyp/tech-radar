@@ -1,16 +1,16 @@
 name,ring,quadrant,isNew,description,
 Jenkins,adopt,tools,FALSE,TBD,
-Microservices,adopt,techniques,FALSE,Group related features and domains in microservices applying Domain Driven Design strategic patterns. Consider EventStorming to identify your business process and domains. Be aware of the https://www.infoq.com/news/2017/12/entity-services-antipattern/ anti-pattern.
-Domain Driven Design (DDD),adopt,techniques, FALSE,Usage of DDD to define our domains and services. Thereby we focus primarily on strategic patterns. EventStorming is one preferred way to visualize and identify domains and services.
-Micro Frontends,adopt,techniques,FALSE,We are using Module Federation, to shorten our release times and force Squads to think and implement in independent modules.
-Resilience Patterns,adopt,techniques,TRUE,Use common resilience patterns as applicable to make our services resilience against common failure scenarios.
-Infrastructure As Code (IaC),adopt,techniques,TRUE,We define our infrastructure in machine readable configuration files for a high level of automation. This also allows us to define and control security, compliance requirements in a central place, fostering security-by-design and compliance-by-design.
-Feature Toggles,adopt,techniques,TRUE,Usage of feature toggles to enable/disable feature, e.g. for A/B testing, on-boarding of features, etc. Feature toggles shall not be used once a feature is general available. This is the configured via the respective permissions and application configuration.
-Application Performance Monitoring (APM),adopt,techniques,TRUE,Use Application Performance Monitoring to gain insight in the performance and usability of our products and services in a standardized way. Thereby we combine APM data with other information, e.g. trace, metrics and log data to get a holistic view of our services.
-API First,adopt,techniques,TRUE,We apply the API first principle for all our product API and follow API guidelines.
-REST API Validation,techniques,adopt,TRUE,We validate all our REST APIs against our REST guidelines in an automated fashion as part of our API development pipeline (ApiOps).
-split.io,adopt,tools,TRUE,We use split.io as our feature toggle service.
-Helm,adopt,tools,TRUE,We use Helm to define our Kubernetes deployments.
+Microservices,adopt,techniques,FALSE,Group related features and domains in microservices applying Domain Driven Design strategic patterns. Consider EventStorming to identify your business process and domains. Be aware of the https://www.infoq.com/news/2017/12/entity-services-antipattern/ anti-pattern.,
+Domain Driven Design (DDD),adopt,techniques, FALSE,Usage of DDD to define our domains and services. Thereby we focus primarily on strategic patterns. EventStorming is one preferred way to visualize and identify domains and services.,
+Micro Frontends,adopt,techniques,FALSE,We are using Module Federation, to shorten our release times and force Squads to think and implement in independent modules.,
+Resilience Patterns,adopt,techniques,TRUE,Use common resilience patterns as applicable to make our services resilience against common failure scenarios.,
+Infrastructure As Code (IaC),adopt,techniques,TRUE,We define our infrastructure in machine readable configuration files for a high level of automation. This also allows us to define and control security, compliance requirements in a central place, fostering security-by-design and compliance-by-design.,
+Feature Toggles,adopt,techniques,TRUE,Usage of feature toggles to enable/disable feature, e.g. for A/B testing, on-boarding of features, etc. Feature toggles shall not be used once a feature is general available. This is the configured via the respective permissions and application configuration.,
+Application Performance Monitoring (APM),adopt,techniques,TRUE,Use Application Performance Monitoring to gain insight in the performance and usability of our products and services in a standardized way. Thereby we combine APM data with other information, e.g. trace, metrics and log data to get a holistic view of our services.,
+API First,adopt,techniques,TRUE,We apply the API first principle for all our product API and follow API guidelines.,
+REST API Validation,techniques,adopt,TRUE,We validate all our REST APIs against our REST guidelines in an automated fashion as part of our API development pipeline (ApiOps).,
+split.io,adopt,tools,TRUE,We use split.io as our feature toggle service.,
+Helm,adopt,tools,TRUE,We use Helm to define our Kubernetes deployments.,
 Openshift,adopt,platforms,FALSE,TBD,
 Apache Kafka,adopt,platforms,FALSE,Apache Kafka is our standard messaging/event broker and event store.,
 Ansible,assess,platforms,FALSE,TBD,
