@@ -93,3 +93,6 @@ Grafana,adopt,platforms,TRUE,"Grafana is our one-stop-shop for all metrics to be
 Prometheus,adopt,platforms,TRUE,"Prometheus and AlertManager for holistic collection of metrics and alerting,",
 Terragrunt,adopt,tools,TRUE,"Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.",
 Kustomize,hold,tools,TRUE,"We are migrating to Helm to our preferred solution for Kubernetes customization and configuration.",
+Checkmarx,adopt,tools,TRUE,"",
+Twistlock,adopt,tools,TRUE,"",
+Elastic Operator,trial,tools,TRUE,"Elastic Operator provides a modern Kubernetes compatible way to operate  the Elastic stack.",
