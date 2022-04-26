@@ -14,7 +14,9 @@ Renovate,adopt,tools,TRUE,We use Renovate to automatically manage dependency upd
 Typescript,adopt,languages&frameworks,TRUE,We only allow Typescript for new projects and migrate old ones if they are further used in production.,
 NextJS,adopt,languages&frameworks,TRUE,We implement our Interhyp website using Next.js.,
 Kafka Schema Registry,adopt,languages&frameworks,TRUE,We use the Kafka Schema Registry to manage and document the contract for all messages we send over Kafka.,
-Openshift,adopt,platforms,FALSE,TBD,
+Openshift,hold,platforms,FALSE,"We migrate to a standardized and plain vanilla Kubernetes environment, e.g. Azure Kubernetes Service (AKS) and Kubermatic.",
+Kubernetes,adopt,platforms,TRUE,"We use plain Kubernetes distributions in favor of proprietary bundles to service our mortgage platform.",
+ArgoCD,adopt,platforms,TRUE,"We use ArgoCD as our GitOps continuous delivery tool for Kubernetes to manage the lifecycle of applications in Kubernetes."
 Apache Kafka,adopt,platforms,FALSE,Apache Kafka is our standard messaging/event broker and event store.,
 Ansible,assess,platforms,FALSE,TBD,
 velocity,hold,languages&frameworks,FALSE,TBD,
