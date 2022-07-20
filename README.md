@@ -1,6 +1,6 @@
 # Interhyp Technology Radar
 
-* [Interhyp Radar Volume 4 Q1 2022 (Work in Progress)](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FInterhyp%2Ftech-radar%2Fmain%2FInterhyp%2520Radar%25204%2520Q1%25202022.csv)
+* [Interhyp Radar Volume 4 Q1 2022 (Work in Progress)](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/Interhyp/tech-radar/main/Interhyp%20Radar%20Volume%204%20Q1%202022.csv)
 
 
 ## Introduction
